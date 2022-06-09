@@ -7,7 +7,7 @@ export default function App(props) {
                 <img src={props.ctn.imageUrl} alt="img" className="card-img"></img>
                 <div className="info">
                     <div className="location-wrapper">
-                        <i class="fa-solid fa-location-dot"></i><span className="loc">{props.ctn.location}</span>
+                        <i className="fa-solid fa-location-dot"></i><span className="loc">{props.ctn.location}</span>
                         <a href={props.ctn.googleMapsUrl} target="_blank">View on Google Maps</a>
                     </div>
                     <h1>{props.ctn.title}</h1>
